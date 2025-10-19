@@ -42,7 +42,7 @@ def create_word_matrix(input_path, output_path):
             output_row = [('t' if word in row_words else '') for word in distinct_words]
             writer.writerow(output_row)
 
-# Example usage with Windows file paths:
+# Run the program with input
 input_path = r"C:\Users\mahah\git\csv_data_restructure\files\data_original.csv"
 output_path = r"C:\Users\mahah\git\csv_data_restructure\files\data_weka_structure.csv"
 
